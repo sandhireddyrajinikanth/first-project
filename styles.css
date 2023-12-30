@@ -1,0 +1,412 @@
+section{
+    float: left;
+    width: 100%;
+}
+
+.header{
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 #dadce0;
+
+}
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0%;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.img-fluid{
+    max-width: 100%;
+
+}
+.logo{
+    width: 30%;
+    float: left;
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+.contact{
+    width: 70%;
+    float: left;
+    text-align: right;
+    padding-top: 15px;
+    
+}
+.contact li{
+    display: inline;
+   padding-right: 20px;
+  
+}
+   
+.logo img{
+    width: 234px;
+ 
+}
+
+.contact img{
+    width: 22px;
+    margin-right: 5px;
+}
+.banner{
+    background-image: url("../images/parallax-bg.jpg");
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+}
+.banner1{
+    width: 65%;
+    float: left;
+}
+.banner2{
+    width: 35%;
+    float: left;
+}
+.banner1 h1{
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.banner1 p{
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.banner1 li{
+    padding-bottom:  10px;
+}
+.banner1 h2{
+    padding-bottom: 20px;
+}
+.banner1 ul{
+    margin: 20px;
+
+}
+.btnstyle{
+    background-color:#f5233e;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 13px 27px;
+    border: 3px solid #f5233e;
+    margin-top:20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.form{
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    padding: 25px 20px;
+    border-radius: 5px;
+}
+
+.form-control{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #10100f;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+
+}
+.form h2{
+    margin-bottom: 20px;
+}
+
+.jobs{
+    background-color:#f0f8ff;
+    padding: 50px 0px;
+    width: 100%;
+}
+.jobin{
+    background-color:rgba(255,255,255,0.7);
+    padding: 50px;
+    text-align: center;
+}
+.jobin h2{
+    margin-bottom: 20px;
+}
+.jobin p{
+    font-size: 19px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.jobin h4{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.jobin li{
+    text-align: left;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+.skills{
+    background-image: url(../images/parallax-bg1.jpg);
+    width: 100%;
+    text-align: left;
+    color: #f0f8ff;
+    padding: 50px 0px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-bottom: 30px;
+
+}
+.skills1 h1{
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+.skills1 h1 span{
+    font-size: 14px;
+}
+.skills1 p{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.skills1 p.p2{
+    margin-bottom: 30px;
+}
+.bn{
+    background-color: #fff;
+    padding: 10px 30px;
+    color: #10100f;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.certificate{
+    padding: 70px 0px;
+    float: left;
+    width: 100%;
+}
+
+.certificate1 h2{
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #2d2a2a;
+
+}
+.certificate1{
+    width: 65%;
+    float: left;
+}
+
+.certificate1 li{
+    padding: 10px;
+    margin-left: 25px;
+   margin-top:4px;
+   color: #272525;;
+}
+
+.certificate2{
+    width: 35%;
+    float: left;
+}
+.keypoint{
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.keypoint1{
+    width: 23%;
+    float: left;
+    box-shadow: 0 0 15px 1px rgb(0 0 0 / 15%);
+    border-radius: 2px;
+    padding: 15px 10px;
+    margin-right: 2%;
+   
+}
+.icon{
+    width: 17%;
+    float: left;
+    padding-top: 10px;
+}
+.content{
+    width: 83%;
+    float: left;
+    text-align: center;
+}
+.content p{
+ font-weight:500;
+ font-size: 16px;
+ padding-top: 10px;
+}
+.content h5{
+    font-size: 18px;
+    margin-top: 8px;
+    
+}
+.keypoint:last-child{
+    margin-right: 0px;
+}
+.web{
+    padding: 50px 0px;
+    float: left;
+    width: 100%;
+}
+
+.web1{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.web2{
+    width: 100%;
+    float: left;
+}
+.web1 h2{
+    margin-bottom: 20px;
+}
+.web1 p{
+    margin-bottom: 50px;
+}
+.web1 p.mb30{
+    margin-bottom: 35px;
+}
+.web21{
+    width: 22%;
+    background-color: #f5f5f5;
+    float: left;
+    text-align:center;
+    border-radius: 3px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 25%);
+    min-height: 250px;
+    padding: 25px 0px;
+    border-top: 3px solid orange;
+
+   
+}
+
+.web21 img{
+width: 75px;
+}
+.web21 h3{
+font-size: 18px;
+}
+
+.web21 p{
+    font-size: 16px;
+   font-weight: 500;
+    line-height:24px;
+    
+}
+.web21:nth-child(2){
+    border-color: green;
+}
+ .web21:nth-child(3){
+    border-color: red;
+ }
+.web21:nth-child(4){
+    border-bottom: #6FD1F9;
+    margin-right: 0px;
+}
+.web21:nth-child(5){
+    border-color: #FEA202;
+    
+}
+.web21:nth-child(6){
+    border-color: #2378F3;
+}
+.web21:nth-child(7){
+    border-color: #FE711D;
+}
+.web21:last-child{
+border-color: #1cb4c2;
+margin-right: 0px;
+
+}
+.company{
+    background-color: #f5f5f5;
+    width: 100%;
+    padding:35px 0px;
+}
+.company1 h2{
+margin-bottom: 25px;
+
+}
+
+.company1{
+    padding: 0px 9%;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.company2{
+    padding: 0px 9%;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.company2 img{
+    width: 950px;
+}
+.company p{
+    margin-bottom: 40px;
+}
+.student{
+    background-color: #fff;
+    padding: 50px 0px;
+}
+.students{
+    width: 100%;
+    float: left;
+}
+.students1{
+    width: 25%;
+    float: left;
+    margin-top: 30px;
+}
+.address{
+    background-color: #f5f5f5;
+    width: 100%;
+    float: left;
+    padding: 35px 0px;
+}
+.address1{
+    text-align: center;
+}
+.address1 h2{
+    font-size: 28px;
+    color: #2d2a2a;
+    margin-bottom: 25px;
+}
+.address1 address{
+    line-height: 22px;
+    font-size: 18px;
+}
+.address1 input{
+    margin-top: 25px;
+}
+.footer{
+    background-color: #252525;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #f5f5f5;
+    font-size: 16px;
+    width: 100%;
+    float: left;
+}
+.footer1{
+    width: 50%;
+    float: left;
+}
+
+.footer2{
+    width: 50%;
+    float: left;
+    text-align: right;
+}

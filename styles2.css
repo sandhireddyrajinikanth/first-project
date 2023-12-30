@@ -1,0 +1,167 @@
+@media only screen and (min-width:992px) and (max-width:1199px){
+
+.container{
+    max-width: 960px;
+}
+.content h5{
+    font-size: 13px;
+}
+.content p{
+    font-size: 13px;
+}
+
+.keypoint1{
+    width: 45%;
+ 
+    margin-right:16px;
+    padding: 5px 5px;
+    margin-bottom: 13px;
+}
+.keypoint1:nth-child(2){
+    margin-right: 0px;
+}
+.web21{
+    min-height: 284px;
+    width: 21%;
+}
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+.container{
+    width: 100%;
+    padding: 0px 15px;
+}
+.keypoint1{
+    width: 47%;
+    margin-right:16px;
+    padding: 5px 5px;
+    margin-bottom: 13px;
+}
+.keypoint1:last-child{
+    margin-right: 0px;
+
+}
+.web21{
+    min-height: 364px;
+    width: 20%;
+    margin-right: 46px;
+    margin-bottom: 35px;
+}
+.certificate1 li{
+    margin-left: 20px;
+}
+}
+
+
+@media only screen and (min-width:567px) and (max-width:767px){
+    .container{
+        max-width: 100%;
+        padding: 0px 15px;
+    }
+    .contact li{
+        font-size: 13px;
+    }
+    .logo img{
+        width: 150px;
+    }
+
+    .keypoint1{
+        width: 21%;
+        min-height: 98px;
+        padding: 10px 10px;
+    }
+
+    .web21{
+        min-height: 360px;
+        width: 18%;
+    }
+    .contact img {
+        width: 16px;
+    }
+.banner1,.banner2,.certificate1,.certificate2{  
+    width: 100%;
+}
+.banner2{
+    margin-top: 20px;
+}
+.keypoint1{
+    width: 48%;
+    margin-right:10px;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.keypoint1:nth-child(2),.keypoint1:nth-child(4),.web21:nth-child(2),.web21:nth-child(6){
+    margin-right: 0px;
+}
+
+.web21{
+    width: 46%;
+    min-height: 237px;
+} 
+
+.skills1 p{
+    font-size: 18px;
+}
+.bn,.web21 h3{
+font-size: 15px;
+}
+.students1{
+    width: 50%;
+}
+.content h5 {
+    font-size: 16px;
+}
+/*  
+.keypoint1:nth-child(1),.keypoint1:nth-child(3),.web21:nth-child(1),.web21:nth-child(5){
+
+margin-left: 5px;
+
+
+}
+*/
+.web21 p {
+    font-size: 14px;
+}
+
+}
+
+
+@media only screen and (max-width:575px){
+    .container{
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .logo,.contact{
+        width: 100%;
+        text-align: center;
+    } 
+.banner1,.banner2,.keypoint1,.web21,.certificate1,.certificate2,.students1,.footer1,.footer2{
+    width: 100%;
+}
+.btnstyle{
+    font-size: 14px;
+
+}
+.form{
+margin-top: 20px;
+}
+.skills{
+    background-image: none;
+    background-color: blue;
+}
+.footer2{
+     text-align: left;
+}
+.contact li{
+    display: block;
+}
+
+
+}
+
+
+
